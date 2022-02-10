@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+			integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Image Carousel</title>
+	</head>
+	<body>
+		<section class="carousel">
+			<div class="left-arrow">
+				<i class="fa-solid fa-circle-chevron-left"></i>
+			</div>
+			<div class="img-preview">
+				<img
+					src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+					alt="Panda"
+					class="img img1"
+					data-img="1"
+				/>
+			</div>
+			<div class="right-arrow">
+				<i class="fa-solid fa-circle-chevron-right"></i>
+			</div>
+		</section>
+
+		<section class="img-row">
+			<div class="carousel-img carousel-img1"></div>
+
+			<div class="carousel-img carousel-img2">
+				<img
+					src="https://images.unsplash.com/photo-1477764250597-dffe9f601ae8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+					alt="Tiger"
+					class="img img2"
+					data-img="2"
+				/>
+			</div>
+
+			<div class="carousel-img carousel-img3">
+				<img
+					src="https://images.unsplash.com/photo-1527161153332-99adcc6f2966?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGFuaW1hbHN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60"
+					alt="Elephants"
+					class="img img3"
+					data-img="3"
+				/>
+			</div>
+
+			<div class="carousel-img carousel-img4">
+				<img
+					src="https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80"
+					alt="Sea Turtle"
+					class="img img4"
+					data-img="4"
+				/>
+			</div>
+
+			<div class="carousel-img carousel-img5">
+				<img
+					src="https://images.unsplash.com/photo-1573325437385-267cbd373ce3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1207&q=80"
+					alt="Bald Eagle"
+					class="img img5"
+					data-img="5"
+				/>
+			</div>
+		</section>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/Flip.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
