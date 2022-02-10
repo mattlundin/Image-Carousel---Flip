@@ -10,7 +10,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-family: 'Roboto', sans-serif;
-	background: #cacaca;
+	background: #d4d1a7;
 	overflow: hidden;
 }
 
@@ -24,7 +24,7 @@ body {
 .img-preview {
 	display: flex;
 	max-height: fit-content;
-	width: 60vw;
+	width: 50vw;
 }
 
 .img-preview img {
@@ -52,8 +52,7 @@ body {
 }
 
 .carousel-img {
-	max-width: 10vw;
-	background-color: #8f8f8f;
+	width: 10vw;
 }
 
 img {
